@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" cotent="width=device-width, initial-scale=1.0" />
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+            <title> WE ARE THE NORTH </title>
+            <link rel="icon" href="Raptors Logo.png" >
+            <link rel="stylesheet" href="index.css">
+            <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+        <style src="index.css"></style>
+        <script src="index.js"></script>
+
+
+<button id="reloadButton" class="resetButton bottomRight" onclick="RELOAD()"> REFRESH </button>
+<button id="backButton" class="bottomLeft" onclick="RELOAD()"> BACK!</button>
+<h4 id="signature"> Aakansh Chatterjee </h4>
+
+    <div id="screen1">
+        <div id="title" class="" > Raptors Statistics </div>
+        <div id="title2" class=""> PICK A CHAMPION!!</div>
+
+        <img id="lowry" class="button" src="Lowry_Transparent.png"onclick="getNBASTATS(286)" onmouseover="this.src='Lowry_Transparent2.png' " onmouseout="this.src='Lowry_Transparent.png'" width="20%" ></img>    
+        <img id="siakam" class="button" src="pascal_Transparent.png"onclick="getNBASTATS(380)" onmouseover="this.src='pascal_Transparent 2.png'" onmouseout="this.src='pascal_Transparent.png'" width="15%"></img>    
+            
+        <img id="anunoby" class="button" src="OG_Transparent.png"onclick="getNBASTATS(18)" onmouseover="this.src='OG_Transparent 3.png'" onmouseout="this.src='OG_Transparent.png'" width="20%"></img>
+            
+        <img id="powell" class="button" src="powell_Transparent.png"onclick="getNBASTATS(416)" onmouseover="this.src='powell_Transparent 2.png'" onmouseout="this.src='powell_Transparent.png'" width="19%"></img>
+            
+        <img id="vanvleet" class="button" src="fred_Transparent 3.png"onclick="getNBASTATS(458)" onmouseover="this.src='fred_Transparent 4.png'" onmouseout="this.src='fred_Transparent 3.png'"width="25%"></img>
+    </div>
+
+
+
+<div id="screenChart">
+        <canvas id="myChart" style="height:35vh; width:40vw"></canvas>
+    </div>
+
+
+    </head>
+</html>
