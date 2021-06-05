@@ -1,6 +1,3 @@
-
-/*classes */
-
 /* Set background */
 body{
     background-color: rgba(0, 0, 0, 0.87);
@@ -9,51 +6,100 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-/* Buttons features */
-.button {
-    font-size: 25px;
-    position: relative;
-    padding: 1mm;
-    border-radius: 2mm;
-}
 
-#signature {
-    color: rgb(216, 235, 238);
-    font-family: 'Caveat'; 
-    position: fixed;
-        bottom: .05vh;
-        right: 1.5vw;
-}
 
-.button:hover{
-    background-color: rgba(10, 10, 10, 0.623);
+/* Specific Classes*/
+    #signature {
+        color: rgb(216, 235, 238);
+        font-family: 'Caveat'; 
+        position: fixed;
+            bottom: .05vh;
+            right: 1.5vw;
+    }
+/*title Position */
+    #title{ 
+        color: rgba(177, 4, 4, 0.76);
+        font-size: 4vw;
+        position: absolute;
+        border-radius: 1px;
+        font-family: "Comics Sans MS", "Comic Sans", cursive;
+        top: 5%;
+        left: 34%;
 
-    font-size: 30px;
-}
+    }
+    #title2{ 
+        color: rgba(177, 4, 4, 0.76);
+        font-size: 3.5vw;
+        position: absolute;
+        border-radius: 1px;
+        top: 18%;
+        left: 35%;
+    }
+
+/* Player Image positions */
+    #lowry {
+        position: absolute;
+        top: 20%;
+        left: 1%;
+    }
+    #siakam {
+        position: absolute;
+        top: 48%;
+        left: 22%;
+    }
+    #anunoby {
+        position: absolute;
+        top: 48%;
+        left: 40%;
+    }
+    #powell {
+        position: absolute;
+        top: 46%;
+        left: 59%;
+    }
+    #vanvleet {
+        position: absolute;
+        top: 20%;
+        left: 76%;
+    }
+
+
+/* Public Features */
+    .button {
+        font-size: 25px;
+        position: relative;
+        padding: 1mm;
+        border-radius: 2mm;
+    }
+
+    .button:hover{
+        background-color: rgba(10, 10, 10, 0.623);
+
+        font-size: 30px;
+    }
 
 
 /*Reset Buttom Location and change animation */
-.resetButton {
-    font-size: 1vw;
-    display: block;
-    border-radius: 10px;
-    background-attachment: sticky;
-}
+    .resetButton {
+        font-size: 1vw;
+        display: block;
+        border-radius: 10px;
+        background-attachment: sticky;
+    }
 
-.resetButton:hover {
-    background-color: rgb(204, 41, 27);
-    transition-duration: .3s;
-}
-.bottomLeft:hover{
-    background-color: rgba(204, 41, 27);
-    transition-duration: .3s;
-}
+    .resetButton:hover {
+        background-color: rgb(204, 41, 27);
+        transition-duration: .3s;
+    }
+    .bottomLeft:hover{
+        background-color: rgba(204, 41, 27);
+        transition-duration: .3s;
+    }
 
 /* Colour*/
-.colourWhite {
-    color: powderblue;
-
-}
+    .colourWhite {
+        color: powderblue;
+    }
 
 /* Different Positons */
    /* Pre-set Possitions & special Positions */
@@ -92,52 +138,6 @@ body{
             position: absolute;
             top: 40%;
             left: 50%;
-        }
-/*title Position */
-        #title{ 
-            color: rgba(177, 4, 4, 0.76);
-            font-size: 4vw;
-            position: absolute;
-            border-radius: 1px;
-            font-family: "Comics Sans MS", "Comic Sans", cursive;
-            top: 5%;
-            left: 34%;
-
-        }
-        #title2{ 
-            color: rgba(177, 4, 4, 0.76);
-            font-size: 3.5vw;
-            position: absolute;
-            border-radius: 1px;
-            top: 18%;
-            left: 35%;
-        }
-
-    /* Player Image positions */
-        #lowry {
-            position: absolute;
-            top: 20%;
-            left: 1%;
-        }
-        #siakam {
-            position: absolute;
-            top: 48%;
-            left: 22%;
-        }
-        #anunoby {
-            position: absolute;
-            top: 48%;
-            left: 40%;
-        }
-        #powell {
-            position: absolute;
-            top: 46%;
-            left: 59%;
-        }
-        #vanvleet {
-            position: absolute;
-            top: 20%;
-            left: 76%;
         }
 
     

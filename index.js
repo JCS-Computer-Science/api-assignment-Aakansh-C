@@ -3,7 +3,7 @@
 var response = 0;
 var data = [];
 
-
+//Stats
 var assist = [];
 var blocks = [];
 var defRebound = [];
@@ -31,8 +31,6 @@ async function getNBASTATS(id) {
 response = await fetch(`https://www.balldontlie.io/api/v1/season_averages?per_page=100&seasons[]=2019&player_ids[]=${id}`)
 
 data = await response.json();
-console.log(data); 
-
 
 assist = data.data[0].ast;
 blocks = data.data[0].blk;
@@ -54,7 +52,6 @@ minutesPlayed = data.data[0].min;
 
 document.getElementById("screen1").style.visibility= "hidden";
    chartIT();
-
 }
 
 
@@ -100,5 +97,3 @@ document.getElementById("screen1").style.visibility= "hidden";
             }
         });
     }
-
-//set global object, and when ever the function is called, set the global variable to it. Then using if else statements check for the page and add 1 to it, then call the function again looking for the next page
